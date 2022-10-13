@@ -1,0 +1,54 @@
+@import "../../style/vars";
+
+.photo {
+  width: 45%;
+  background: #1F2A63;
+  padding: 35px 20px 25px 20px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
+
+.info {
+  padding: 35px 20px 25px 15px;
+  width: 55%;
+  color: white;
+  background: linear-gradient(180deg, #17002F 42.19%, #1F2A63 100%);
+}
+
+.name {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-shadow: 4px 4px 4px rgba(33, 33, 33, 0.1);
+  margin-bottom: 23px;
+}
+
+.frame {
+  padding: 15px 25px;
+  background-color: white;
+  color: $black;
+  max-width: 260px;
+  margin-bottom: 80px;
+  box-shadow: 4px 4px 4px rgba(33, 33, 33, 0.1);
+  border-radius: 8px;
+}
+
+.characteristics {
+  display: flex;
+  gap: 23px;
+}
+.characteristic {
+  color: $black;
+  padding: 10px 23px;
+  background-color: white;
+  box-shadow: 4px 4px 24px rgba(1, 17, 38, 0.2);
+  border-radius: 8px;
+}

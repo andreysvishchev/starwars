@@ -1,0 +1,35 @@
+@import "../../style/vars";
+
+.error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #17002F;
+}
+
+.container {
+  max-width: 1230px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.banner {
+  margin-bottom: 95px;
+}
+
+.link {
+  display: block;
+  max-width: 230px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 18px 80px;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 27px;
+  text-decoration: none;
+  background-color: $green;
+  color: $black;
+  box-shadow: inset 0px -9px 0px rgba(0, 0, 0, 0.18);
+  border-radius: 11px;
+}
+

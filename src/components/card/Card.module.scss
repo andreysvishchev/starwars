@@ -1,0 +1,30 @@
+@import '../../style/vars';
+
+.card {
+  color: $black;
+  padding: 6px 25px 11px 25px;
+  border-radius: 8px;
+  background-color: $card-bg;
+  filter: drop-shadow(4px 4px 4px rgba(33, 33, 33, 0.1));
+  cursor: pointer;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 15px;
+  text-shadow: 4px 4px 4px rgba(33, 33, 33, 0.1);
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+
